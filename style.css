@@ -216,6 +216,7 @@ button:focus-visible, input:focus-visible { outline: 3px solid #1565c0; outline-
 #quiz-feedback { min-height: 1.6em; font-weight: 700; }
 .feedback-ok { color: var(--warna-benar); }
 .feedback-bad { color: var(--warna-salah); }
+.feedback-explain { display: block; margin-top: 6px; font-weight: 400; color: var(--warna-teks); }
  
 /* ---------- Hasil, koleksi sila, peringkat ---------- */
 .stars { font-size: 2rem; letter-spacing: 4px; }
