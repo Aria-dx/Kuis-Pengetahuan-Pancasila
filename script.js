@@ -157,7 +157,13 @@
         var btn = el('button', 'list-btn' + (terbuka ? '' : ' locked'));
         btn.type = 'button';
         btn.disabled = !terbuka;
-        btn.appendChild(el('span', 'list-icon', terbuka ? MATERI[c].simbol : '🔒'));
+        var ikon = el('span', 'list-icon');
+         if (terbuka) {
+           ikon.innerHTML = '<img src="' + MATERI[c].simbol + '" alt="lambang" style="width: 40px; height: auto;">';
+         } else {
+        ikon.textContent = '🔒';
+         }
+btn.appendChild(ikon);
         var teks = el('span', 'list-text');
         teks.appendChild(el('strong', '', 'Bab ' + (c + 1) + ': ' + MATERI[c].judul));
         teks.appendChild(el('small', '', terbuka
@@ -318,7 +324,7 @@
  
     var hadiah = $('sila-reward');
     if (h.silaBaru) {
-      $('sila-reward-symbol').textContent = MATERI[h.c].simbol;
+      $('sila-reward-symbol').innerHTML = '<img src="' + MATERI[h.c].simbol + '" alt="lambang" style="width: 80px; height: auto; margin-bottom: 10px;">';
       $('sila-reward-text').textContent = 'Selamat! Kamu mendapat lambang sila: ' + MATERI[h.c].namaSimbol;
       hadiah.hidden = false;
       bunyi('unlock');
@@ -344,7 +350,13 @@
     for (var c = 0; c < MATERI.length; c++) {
       var punya = chapterDone(c);
       var kartu = el('div', 'sila-card' + (punya ? '' : ' locked'));
-      kartu.appendChild(el('div', 'sila-symbol', punya ? MATERI[c].simbol : '🔒'));
+      var simDiv = el('div', 'sila-symbol');
+      if (punya) {
+     simDiv.innerHTML = '<img src="' + MATERI[c].simbol + '" alt="lambang" style="width: 50px; height: auto;">';
+      } else {
+     simDiv.textContent = '🔒';
+      }
+      kartu.appendChild(simDiv);
       var teks = el('div');
       teks.appendChild(el('strong', '', punya ? MATERI[c].namaSimbol : 'Sila ke-' + (c + 1)));
       teks.appendChild(el('small', '', punya ? MATERI[c].judul : 'Selesaikan Bab ' + (c + 1) + ' untuk membukanya'));
