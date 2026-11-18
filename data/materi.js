@@ -13,7 +13,7 @@ const MATERI = [
   /* ---------- BAB I ---------- */
   {
     judul: 'Sejarah Kelahiran Pancasila',
-    simbol: 'assets/images/1.png', namaSimbol: 'Bintang (Sila ke-1)',
+    simbol: 'assets/images/Sila_1.png', namaSimbol: 'Bintang (Sila ke-1)',
     isi: `
       <p>Pancasila merupakan dasar negara Indonesia yang dirumuskan melalui perjuangan dan musyawarah para tokoh bangsa sebelum kemerdekaan.</p>
  
@@ -42,7 +42,7 @@ const MATERI = [
   /* ---------- BAB II ---------- */
   {
     judul: 'Pancasila sebagai Dasar Negara',
-    simbol: 'assets/images/2.png', namaSimbol: 'Rantai (Sila ke-2)',
+    simbol: 'assets/images/Sila_2.png', namaSimbol: 'Rantai (Sila ke-2)',
     isi: `
       <p>Pancasila adalah dasar negara dan pedoman dalam kehidupan berbangsa dan bernegara.</p>
  
