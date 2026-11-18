@@ -26,6 +26,9 @@ const MATERI = [
         <li>Pancasila disahkan oleh PPKI pada 18 Agustus 1945.</li>
       </ol>
  
+      <h3>Hari Lahir Pancasila</h3>
+      <p>Setiap tanggal <strong>1 Juni</strong> diperingati sebagai <strong>Hari Lahir Pancasila</strong>, untuk mengenang pidato Ir. Soekarno pada sidang BPUPKI tanggal 1 Juni 1945 yang memperkenalkan istilah Pancasila.</p>
+ 
       <h3>Sikap terpuji yang dapat diteladani</h3>
       <ul>
         <li>Rela berkorban demi bangsa.</li>
@@ -58,7 +61,20 @@ const MATERI = [
         <li>Sila ketiga: <strong>Pohon beringin</strong> (Persatuan).</li>
         <li>Sila keempat: <strong>Kepala banteng</strong> (Musyawarah).</li>
         <li>Sila kelima: <strong>Padi dan kapas</strong> (Keadilan sosial).</li>
-      </ol>`
+      </ol>
+ 
+      <h3>Makna lambang sila</h3>
+      <ul>
+        <li><strong>Bintang:</strong> kepercayaan kepada Tuhan Yang Maha Esa.</li>
+        <li><strong>Rantai:</strong> manusia yang saling terhubung dan saling membutuhkan.</li>
+        <li><strong>Pohon beringin:</strong> tempat berteduh yang melindungi semua orang, lambang persatuan.</li>
+        <li><strong>Kepala banteng:</strong> hewan yang suka berkumpul, lambang musyawarah.</li>
+        <li><strong>Padi dan kapas:</strong> makanan dan pakaian, kebutuhan semua rakyat.</li>
+      </ul>
+ 
+      <h3>Garuda Pancasila</h3>
+      <p>Lambang negara Indonesia adalah <strong>Garuda Pancasila</strong>. Di dada burung Garuda ada perisai yang memuat kelima lambang sila. Kaki Garuda mencengkeram sebuah <strong>pita</strong> yang bertuliskan semboyan <strong>Bhinneka Tunggal Ika</strong>.</p>
+      <p>Jumlah bulu Garuda melambangkan tanggal Proklamasi Kemerdekaan, 17 Agustus 1945: 17 helai bulu pada tiap sayap, 8 helai pada ekor, 19 helai pada pangkal ekor, dan 45 helai pada leher.</p>`
   },
  
   /* ---------- BAB III ---------- */
@@ -113,7 +129,7 @@ const MATERI = [
     judul: 'Bhinneka Tunggal Ika',
     simbol: '🌾', namaSimbol: 'Padi dan Kapas (Sila ke-5)',
     isi: `
-      <p><strong>Bhinneka Tunggal Ika</strong> berarti berbeda-beda tetapi tetap satu jua. Semboyan ini menggambarkan keberagaman Indonesia yang tetap bersatu.</p>
+      <p><strong>Bhinneka Tunggal Ika</strong> berarti berbeda-beda tetapi tetap satu jua. Semboyan ini menggambarkan keberagaman Indonesia yang tetap bersatu. Semboyan ini tertulis pada pita yang dicengkeram kaki burung Garuda Pancasila.</p>
  
       <h3>Bentuk keberagaman Indonesia</h3>
       <ol>
@@ -129,6 +145,14 @@ const MATERI = [
         <li>Angklung dari Jawa Barat.</li>
         <li>Tari Kecak dari Bali.</li>
         <li>Keris sebagai senjata tradisional.</li>
+      </ul>
+ 
+      <h3>Contoh budaya dari daerah lain</h3>
+      <ul>
+        <li><strong>Rumah adat:</strong> Joglo (Jawa Tengah), Honai (Papua), Tongkonan (Sulawesi Selatan), dan Rumah Betang (Kalimantan).</li>
+        <li><strong>Alat musik:</strong> Sasando (Nusa Tenggara Timur), Kolintang (Sulawesi Utara), dan Tifa (Maluku dan Papua).</li>
+        <li><strong>Tarian:</strong> Tari Saman (Aceh), Tari Pendet (Bali), dan Tari Piring (Sumatra Barat).</li>
+        <li><strong>Senjata tradisional:</strong> Rencong (Aceh) dan Mandau (Kalimantan).</li>
       </ul>
  
       <h3>Sikap menghargai keberagaman</h3>
