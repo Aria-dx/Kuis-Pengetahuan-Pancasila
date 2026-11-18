@@ -11,7 +11,7 @@ const GAME_CONFIG = {
  
   // Alamat Google Apps Script untuk Peringkat online.
   // Kosongkan dulu: Peringkat hanya menampilkan skor pemain ini.
-  sheetsUrl: '',
+  sheetsUrl: 'https://script.google.com/macros/s/AKfycbxIcSG_2fiVaY8hJrA3Zip51Q-barWX8_TM7ff-V3sm4C69V8mMaJL39vjUMlNTWXQHrg/exec',
  
   // Nama file audio di folder audio/. Kosongkan jika belum ada.
   audio: {
