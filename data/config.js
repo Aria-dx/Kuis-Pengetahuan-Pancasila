@@ -7,7 +7,7 @@
 const GAME_CONFIG = {
   stagesPerChapter: 5,                  // jumlah stage (soal) per bab
   points: { firstTry: 10, retry: 5 },   // poin benar pertama kali / saat mengulang
-  leaderboardLimit: 20,                 // jumlah pemain di layar Peringkat
+  leaderboardLimit: 50,                 // jumlah pemain di layar Peringkat
  
   // Alamat Google Apps Script untuk Peringkat online.
   // Kosongkan dulu: Peringkat hanya menampilkan skor pemain ini.
