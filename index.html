@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kuis Pancasila SD</title> <!-- GANTI: nama game -->
+  <title>Kuis Pengetahuan Pancasila</title> <!-- GANTI: nama game -->
  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,14 +19,14 @@
     <!-- Login Screen -->
     <section id="login-screen" class="screen active" aria-labelledby="login-title">
       <header id="login-title">Login</header>
-      <div class="logo" aria-hidden="true">🦅</div> <!-- GANTI: logo/maskot -->
+      <img src="assets/images/Lambang_garuda.png" alt="Logo" class="logo"> <!-- GANTI: logo/maskot -->
  
-      <h1 class="game-name">Kuis Pancasila</h1> <!-- GANTI: nama game -->
+      <h1 class="game-name">Kuis Pengetahuan Pancasila</h1> <!-- GANTI: nama game -->
  
-      <p class="tagline">Belajar Pendidikan Pancasila sambil bermain!</p>
+      <p class="tagline">Belajar Pendidikan Pancasila Melalui Kuis!</p>
       <label for="player-name">Nama panggilan</label>
       <input type="text" id="player-name" placeholder="Tulis nama panggilanmu..."
-             maxlength="20" autocomplete="off" required>
+             maxlength="50" autocomplete="off" required>
       <p id="login-error" class="error-msg" role="alert" aria-live="assertive"></p>
       <button type="button" id="login-btn">Mainkan</button>
     </section>
@@ -34,30 +34,31 @@
     <!-- Start Screen -->
     <section id="start-screen" class="screen" aria-labelledby="start-title" hidden>
       <header id="start-title">Menu Utama</header>
-      <div class="logo" aria-hidden="true">🦅</div> <!-- GANTI: logo/maskot -->
+      <img src="assets/images/Lambang_garuda.png" alt="Logo" class="logo"> <!-- GANTI: logo/maskot -->
  
-      <h1 class="game-name">Kuis Pancasila</h1> <!-- GANTI: nama game -->
+      <h1 class="game-name">Kuis Pengetahuan Pancasila</h1> <!-- GANTI: nama game -->
  
       <p id="welcome-msg"></p>
       <button type="button" id="start-btn">Mulai</button>
       <button type="button" id="intro-btn">Cara Bermain</button>
       <button type="button" id="leaderboard-btn">Peringkat</button>
-      <button type="button" id="sila-btn">Koleksi Sila</button>
+      <button type="button" id="sila-btn">Koleksi Lambang</button>
       <button type="button" id="settings-btn">Pengaturan</button>    </section>
  
     <!-- Intro / Cara Bermain -->
     <section id="intro-screen" class="screen" aria-labelledby="intro-title" hidden>
       <header id="intro-title">Cara Bermain</header>
-      <h2 class="game-name-2">Kuis Pancasila</h2> <!-- GANTI: nama game -->
+      <h2 class="game-name-2">Kuis Pengetahuan Pancasila</h2> <!-- GANTI: nama game -->
  
       <div id="intro-content">
         <ol class="how-to">
-          <li>Tulis namamu, lalu tekan <strong>Mainkan</strong>.</li>
+          <li>Tulis nama pannggilanmu, lalu tekan <strong>Mainkan</strong>.</li>
           <li>Pilih sebuah bab dan baca materinya dulu.</li>
-          <li>Pilih stage dan jawab soalnya. Jawaban benar memberi <strong>1 bintang ⭐</strong> dan <strong>poin</strong>.</li>
-          <li>Stage berikutnya terbuka setelah stage sebelumnya dijawab.</li>
-          <li>Selesaikan 5 stage dalam satu bab untuk mendapat <strong>1 lambang sila</strong>.</li>
-          <li>Boleh mengulang! Poin pertama kali benar: 10. Poin saat mengulang: 5. Bintang dan lambang sila tidak berkurang.</li>
+          <li>Pilih stage dan jawab soalnya. Jawaban benar mendapat <strong>1 bintang ⭐</strong> dan <strong>poin</strong>.</li>
+          <li>Soal berikutnya terbuka setelah soal sebelumnya anda jawab</li>
+          <li>Selesaikan 5 soal dalam satu bab untuk mmendapat <strong> 1 lambang sila Pancasila</strong>.</li>
+          <li>Selesaikan seluruh bab untuk melengkapi koleksi <strong> lambang-lambang sila Pancasila</strong>.</li>
+          <li>Anda diperbolehkan mengulang! Poin pertama bernilai benar: 10. Poin saat mengulang: 5.</li>
         </ol>
       </div>
       <button type="button" class="back-btn">Kembali</button>
@@ -157,15 +158,15 @@
  
     <!-- Koleksi Lambang Sila -->
     <section id="sila-screen" class="screen" aria-labelledby="sila-title" hidden>
-      <header id="sila-title">Koleksi Sila</header>
-      <p class="screen-hint">Selesaikan satu bab untuk membuka satu lambang sila.</p>
+      <header id="sila-title">Koleksi Lambang</header>
+      <p class="screen-hint">Selesaikan satu bab untuk membuka satu lambang.</p>
       <div id="sila-list"></div>
       <button type="button" class="back-btn">Kembali</button>
     </section>
  
   </main>
  
-  <footer class="game-footer">Media Pembelajaran Pendidikan Pancasila SD</footer> <!-- GANTI: teks footer (opsional) -->
+  <footer class="game-footer">Media Pembelajaran Pendidikan Pancasila Kelas 5 & 6 Sekolah Dasar</footer> <!-- GANTI: teks footer (opsional) -->
  
  
   <!-- Musik latar: nama file diisi di data/config.js (GAME_CONFIG.audio.bgm) -->
