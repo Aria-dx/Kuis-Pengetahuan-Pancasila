@@ -13,7 +13,7 @@ const MATERI = [
   /* ---------- BAB I ---------- */
   {
     judul: 'Sejarah Kelahiran Pancasila',
-    simbol: '⭐', namaSimbol: 'Bintang (Sila ke-1)',
+    simbol: 'assets/images/1.png', namaSimbol: 'Bintang (Sila ke-1)',
     isi: `
       <p>Pancasila merupakan dasar negara Indonesia yang dirumuskan melalui perjuangan dan musyawarah para tokoh bangsa sebelum kemerdekaan.</p>
  
@@ -42,7 +42,7 @@ const MATERI = [
   /* ---------- BAB II ---------- */
   {
     judul: 'Pancasila sebagai Dasar Negara',
-    simbol: '⛓️', namaSimbol: 'Rantai (Sila ke-2)',
+    simbol: 'assets/images/2.png', namaSimbol: 'Rantai (Sila ke-2)',
     isi: `
       <p>Pancasila adalah dasar negara dan pedoman dalam kehidupan berbangsa dan bernegara.</p>
  
@@ -80,7 +80,7 @@ const MATERI = [
   /* ---------- BAB III ---------- */
   {
     judul: 'Pancasila dalam Kehidupan Sehari-hari',
-    simbol: '🌳', namaSimbol: 'Pohon Beringin (Sila ke-3)',
+    simbol: 'assets/images/3.png', namaSimbol: 'Pohon Beringin (Sila ke-3)',
     isi: `
       <p>Penerapan Pancasila adalah melaksanakan nilai-nilai lima sila dalam kehidupan di rumah, sekolah, dan masyarakat.</p>
  
@@ -97,7 +97,7 @@ const MATERI = [
   /* ---------- BAB IV ---------- */
   {
     judul: 'Norma, Hak, dan Kewajiban',
-    simbol: '🐂', namaSimbol: 'Kepala Banteng (Sila ke-4)',
+    simbol: 'assets/images/4.png', namaSimbol: 'Kepala Banteng (Sila ke-4)',
     isi: `
       <p>Norma adalah aturan hidup yang mengatur perilaku manusia agar tercipta ketertiban, keamanan, dan kenyamanan.</p>
  
@@ -127,7 +127,7 @@ const MATERI = [
   /* ---------- BAB V ---------- */
   {
     judul: 'Bhinneka Tunggal Ika',
-    simbol: '🌾', namaSimbol: 'Padi dan Kapas (Sila ke-5)',
+    simbol: 'assets/images/5.png', namaSimbol: 'Padi dan Kapas (Sila ke-5)',
     isi: `
       <p><strong>Bhinneka Tunggal Ika</strong> berarti berbeda-beda tetapi tetap satu jua. Semboyan ini menggambarkan keberagaman Indonesia yang tetap bersatu. Semboyan ini tertulis pada pita yang dicengkeram kaki burung Garuda Pancasila.</p>
  
