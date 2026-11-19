@@ -485,10 +485,14 @@ btn.appendChild(ikon);
     $('result-stage-btn').addEventListener('click', function () { bukaStage(lastResult ? lastResult.c : currentChapter); });
  
     window.addEventListener('online', function () { if (state.unsynced) kirimSkor(); });
-     // bunyi
-     document.addEventListener('click', function (e) {
+     
+/* bunyi */
+   document.addEventListener('click', function (e) {
       if (e.target.closest('button')) {
         bunyi('click');
+      }
+    });
+
   }
  
   /* ---------- Mulai ---------- */
