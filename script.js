@@ -484,7 +484,7 @@ btn.appendChild(ikon);
     $('result-next-btn').addEventListener('click', lanjutDariHasil);
     $('result-stage-btn').addEventListener('click', function () { bukaStage(lastResult ? lastResult.c : currentChapter); });
  
-    window.addEventListener('online', function () { if (state.unsynced) kirimSkor(); });
+    window.addEventListener('online', function () { if (state.unsynced) kirimSkor(); 
      
 /* bunyi */
    document.addEventListener('click', function (e) {
