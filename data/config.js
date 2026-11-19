@@ -16,8 +16,8 @@ const GAME_CONFIG = {
   // Nama file audio di folder audio/. Kosongkan jika belum ada.
   audio: {
     bgm: 'audio/music.mp3',        // musik latar, contoh: 'audio/musik.mp3'
-    correct: 'audio/correct.mp3',    // efek suara jawaban benar
-    wrong: 'audio/wrong.mp3',      // efek suara jawaban salah
+    correct: 'assets/audio/correct.mp3',    // efek suara jawaban benar
+    wrong: 'assets/audio/wrong.mp3',      // efek suara jawaban salah
     unlock: 'audio/unlock.mp3',      // efek suara lambang sila terbuka
    click: 'assets/audio/click.mp3'
   }
