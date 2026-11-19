@@ -14,6 +14,7 @@ const MATERI = [
   {
     judul: 'Sejarah Kelahiran Pancasila',
     simbol: 'assets/images/Sila_1.png', namaSimbol: 'Bintang (Sila ke-1)',
+    bunyiSila: 'Ketuhanan Yang Maha Esa',
     isi: `
       <p>Pancasila merupakan dasar negara Indonesia yang dirumuskan melalui perjuangan dan musyawarah para tokoh bangsa sebelum kemerdekaan.</p>
  
@@ -43,6 +44,7 @@ const MATERI = [
   {
     judul: 'Pancasila sebagai Dasar Negara',
     simbol: 'assets/images/Sila_2.png', namaSimbol: 'Rantai (Sila ke-2)',
+    bunyiSila: 'Kemanusiaan yang adil dan beradab',
     isi: `
       <p>Pancasila adalah dasar negara dan pedoman dalam kehidupan berbangsa dan bernegara.</p>
  
@@ -81,6 +83,7 @@ const MATERI = [
   {
     judul: 'Pancasila dalam Kehidupan Sehari-hari',
     simbol: 'assets/images/3.png', namaSimbol: 'Pohon Beringin (Sila ke-3)',
+     bunyiSila: 'Persatuan Indonesia',
     isi: `
       <p>Penerapan Pancasila adalah melaksanakan nilai-nilai lima sila dalam kehidupan di rumah, sekolah, dan masyarakat.</p>
  
@@ -98,6 +101,7 @@ const MATERI = [
   {
     judul: 'Norma, Hak, dan Kewajiban',
     simbol: 'assets/images/4.png', namaSimbol: 'Kepala Banteng (Sila ke-4)',
+     bunyiSila: 'Kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan',
     isi: `
       <p>Norma adalah aturan hidup yang mengatur perilaku manusia agar tercipta ketertiban, keamanan, dan kenyamanan.</p>
  
@@ -128,6 +132,7 @@ const MATERI = [
   {
     judul: 'Bhinneka Tunggal Ika',
     simbol: 'assets/images/5.png', namaSimbol: 'Padi dan Kapas (Sila ke-5)',
+     bunyiSila: 'Keadilan sosial bagi seluruh rakyat Indonesia',
     isi: `
       <p><strong>Bhinneka Tunggal Ika</strong> berarti berbeda-beda tetapi tetap satu jua. Semboyan ini menggambarkan keberagaman Indonesia yang tetap bersatu. Semboyan ini tertulis pada pita yang dicengkeram kaki burung Garuda Pancasila.</p>
  
