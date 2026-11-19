@@ -359,7 +359,7 @@ btn.appendChild(ikon);
       kartu.appendChild(simDiv);
       var teks = el('div');
       teks.appendChild(el('strong', '', punya ? MATERI[c].namaSimbol : 'Sila ke-' + (c + 1)));
-      teks.appendChild(el('small', '', punya ? MATERI[c].judul : 'Selesaikan Bab ' + (c + 1) + ' untuk membukanya'));
+      teks.appendChild(el('small', '', punya ? MATERI[c].bunyiSila : 'Selesaikan Bab ' + (c + 1) + ' untuk membukanya'));
       kartu.appendChild(teks);
       daftar.appendChild(kartu);
     }
