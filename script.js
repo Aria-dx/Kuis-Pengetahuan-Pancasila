@@ -440,7 +440,7 @@ btn.appendChild(ikon);
     vol.addEventListener('input', function () { settings.volume = Number(vol.value); simpan(SET_KEY, settings); terapkanAudio(); });
   }
  
-  /* ---------- Tombol ---------- */
+ /* ---------- Tombol ---------- */
   var KEMBALI = {
     'intro-screen': 'start-screen',
     'settings-screen': 'start-screen',
@@ -484,15 +484,14 @@ btn.appendChild(ikon);
     $('result-next-btn').addEventListener('click', lanjutDariHasil);
     $('result-stage-btn').addEventListener('click', function () { bukaStage(lastResult ? lastResult.c : currentChapter); });
  
-    window.addEventListener('online', function () { if (state.unsynced) kirimSkor(); 
-     
-/* bunyi */
-   document.addEventListener('click', function (e) {
+    window.addEventListener('online', function () { if (state.unsynced) kirimSkor(); });
+
+    // Efek suara klik untuk SEMUA tombol
+    document.addEventListener('click', function (e) {
       if (e.target.closest('button')) {
         bunyi('click');
       }
     });
-
   }
  
   /* ---------- Mulai ---------- */
